@@ -1,0 +1,28 @@
+git init 
+
+git add .
+
+git commit -m "Message"
+
+git add remote origin <remote-url>
+
+git push -u origin <branch_name>
+
+git pull 
+
+git reset --hard <commit_id>
+
+git reset --soft <commit_id>
+
+git branch
+
+git status 
+
+git log 
+
+git branch <branch_name>
+
+git checkout <branch_name>
+
+# Merge the feature branch into main
+git merge feature-branch
